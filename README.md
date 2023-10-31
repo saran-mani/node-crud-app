@@ -77,5 +77,5 @@ Brief project description and purpose
    ```bash 
      npm install
 - ### 3.Start the application:
-```bash
+   ```bash
     node app.js
