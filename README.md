@@ -70,7 +70,7 @@ Brief project description and purpose
 - MongoDB installed and running.
 - ### 1.Clone the repository:
   ```bash
-     git clone https://github.com/yourusername/your-project.git
+     git clone https://github.com/saran-mani/node-crud-app.git
      cd your-project
   
 - ### 2.Install the necessary dependencies:
