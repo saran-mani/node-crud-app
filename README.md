@@ -1,12 +1,11 @@
-# Your Project Name
+# NODE-CRUD-APP
 
-Brief project description and purpose
+Book CRUD Application is a web-based system designed for managing a collection of books. This application enables you to efficiently perform Create, Read, Update, and Delete (CRUD) operations on book records, making it an essential tool for bookstores, libraries, or anyone in need of organized book data management.
 
 ## Table of Contents
 
 - [API Endpoints](#api-endpoints)
 - [Setup and Local Development](#setup-and-local-development)
-- [Decisions and Assumptions](#decisions-and-assumptions)
 
 ## API Endpoints
 
