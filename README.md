@@ -11,10 +11,10 @@ Book CRUD Application is a web-based system designed for managing a collection o
   cd node-crud-app
 - ### step 3:
   ```bash
-   npm install
+  npm install
 - ### step 4:
   ```bash
-    node app.js
+  node app.js
 ## Table of Contents
 
 - [API Endpoints](#api-endpoints)
@@ -67,7 +67,7 @@ Book CRUD Application is a web-based system designed for managing a collection o
   }
 - ### Example Usage:
   ```bash
-    curl -X PUT -H "Content-Type: application/json" -d '{"title": "Updated Title", "author": "Updated Author", "summary": "Updated Summary"}' http://localhost:3000/books/1
+  curl -X PUT -H "Content-Type: application/json" -d '{"title": "Updated Title", "author": "Updated Author", "summary": "Updated Summary"}' http://localhost:3000/books/1
 ### Delete a Book
 - URL: `/books/:id`
 - HTTP Method: DELETE
@@ -82,12 +82,12 @@ Book CRUD Application is a web-based system designed for managing a collection o
 - MongoDB installed and running.
 - ### 1.Clone the repository:
   ```bash
-     git clone https://github.com/saran-mani/node-crud-app.git
-     cd node-crud-app
+  git clone https://github.com/saran-mani/node-crud-app.git
+  cd node-crud-app
   
 - ### 2.Install the necessary dependencies:
    ```bash 
-     npm install
+   npm install
 - ### 3.Start the application:
    ```bash
-    node app.js
+   node app.js
