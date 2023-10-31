@@ -25,6 +25,7 @@ URL: /books
 HTTP Method: POST
 Description: Create a new book.
 Request Body:
+```bash
 {
   "title": "Book Title",
   "author": "Book Author",
