@@ -21,7 +21,7 @@ Brief project description and purpose
   ```bash
     curl -X GET http://localhost:3000/books
 ### Create a New Book
-- URL: /books
+- URL: `/books`
 - HTTP Method: POST
 - Description: Create a new book.
 - Request Body:
@@ -33,7 +33,7 @@ Brief project description and purpose
   }
 - ### Example Usage:
   ```bash
-      curl -X POST -H "Content-Type: application/json" -d '
+      curl -X POST -H "Content-Type: application/json" -d '{"title": "Book Title", "author": "Book Author", "summary": "Book Summary"}' http://localhost:3000/books
 ### Retrieve a Specific Book
 - URL: /books/:id
 - HTTP Method: GET
