@@ -68,3 +68,9 @@ Brief project description and purpose
 ### Prerequisites
 - Node.js and npm installed on your machine.
 - MongoDB installed and running.
+# 1.Clone the repository:
+```bash
+  git clone https://github.com/yourusername/your-project.git
+  cd your-project
+
+  
