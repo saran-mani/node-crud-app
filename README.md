@@ -38,7 +38,30 @@ Brief project description and purpose
 - URL: /books/:id
 - HTTP Method: GET
 - Description: Get details of a specific book by its ID.
-#### Example Usage:
-```bash
-curl -X GET http://localhost:3000/books/1
+- ### Example Usage:
+  ```bash
+   curl -X GET http://localhost:3000/books/1
+
+### Update a Book
+- URL: `/books/:id`
+- HTTP Method: PUT
+- Description: Update the details of a specific book by its ID.
+- Request Body:
+  ```bash
+  {
+  "title": "Updated Title",
+  "author": "Updated Author",
+  "summary": "Updated Summary"
+  }
+- ### Example Usage:
+  ```bash
+    curl -X PUT -H "Content-Type: application/json" -d '{"title": "Updated Title", "author": "Updated Author", "summary": "Updated Summary"}' http://localhost:3000/books/1
+### Delete a Book
+- URL: `/books/:id`
+- HTTP Method: DELETE
+- Description: Delete a specific book by its ID.
+- ### Example Usage:
+  ```bash
+  curl -X DELETE http://localhost:3000/books/1
+
 
