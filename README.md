@@ -20,7 +20,7 @@ Brief project description and purpose
 - **Example Usage:**
   ```bash
   curl -X GET http://localhost:3000/books
-- Create a New Book
+## Create a New Book
 - URL: /books
 - HTTP Method: POST
 - Description: Create a new book.
