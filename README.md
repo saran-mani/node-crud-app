@@ -76,6 +76,6 @@ Brief project description and purpose
 - ### 2.Install the necessary dependencies:
    ```bash 
      npm install
--### 3.Start the application:
+- ### 3.Start the application:
 ```bash
     node app.js
