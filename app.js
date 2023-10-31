@@ -71,5 +71,5 @@ app.delete("/books/:id", async (req, res) => {
   res.redirect("/books");
 });
 app.listen(3000, () => {
-  console.log("Server run on port 3000");
+  console.log("Server is on");
 });
