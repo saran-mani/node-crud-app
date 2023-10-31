@@ -31,10 +31,9 @@ Brief project description and purpose
   "author": "Book Author",
   "summary": "Book Summary"
   }
-#### Example Usage:
-    ```bash
-     curl -X POST -H "Content-Type: application/json" -d '{"title": "Book Title", "author": "Book Author", "summary": "Book Summary"}' http://localhost:3000/books
-
+- ### Example Usage:
+  ```bash
+      curl -X POST -H "Content-Type: application/json" -d '
 ### Retrieve a Specific Book
 - URL: /books/:id
 - HTTP Method: GET
