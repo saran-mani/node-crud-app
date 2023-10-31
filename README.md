@@ -25,9 +25,17 @@ Brief project description and purpose
 - HTTP Method: POST
 - Description: Create a new book.
 - Request Body:
-```bash
-{
+  ```bash
+  {
   "title": "Book Title",
   "author": "Book Author",
   "summary": "Book Summary"
-}
+  }
+### Retrieve a Specific Book
+- URL: /books/:id
+- HTTP Method: GET
+- Description: Get details of a specific book by its ID.
+#### Example Usage:
+```bash
+curl -X GET http://localhost:3000/books/1
+
