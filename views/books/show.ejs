@@ -1,0 +1,22 @@
+<% layout('layout/boilerplate') %>
+
+    <h2 class="text-center bg-dark p-3 text-light rounded"><%= book.title %></h2>
+    <div class="card mb-5">
+        <div class="card-body fs-4">
+            <p class="card-text"><b>Title: </b> <%= book.title %>
+            </p>
+            <p class="card-text"><b>Author:</b> <%= book.author %>
+            </p>
+            <p class="card-text"><b>Summary:</b> <%= book.summary %>
+            </p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a class="btn btn-warning" href="/books/<%=book._id%>/edit">Update</a></li>
+            <li class="list-group-item">
+                <form action="/books/<%= book._id%>?_method=delete" method="post">
+                    <button class="btn btn-danger">Delete</button>
+                </form>
+            </li>
+            <li class="list-group-item" ><a class="btn btn-dark" href="/books">All books</a></li>
+        </ul>
+    </div>

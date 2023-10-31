@@ -1,0 +1,18 @@
+<% layout('layout/boilerplate') %>
+<div class="container">
+    <h2 class="text-center">All Books</h2>
+    <a href="/books/new" class="btn btn-success">Add Book</a>
+
+    <div class="my-3 w-50">
+        <input type="text" class="form-control" id="searchInput" placeholder="Search by title">
+    </div>
+
+    <% for(let book of books) {%>
+        <div class="border m-3 p-3">
+            <h3>Book Title: <%= book.title %>
+            </h3>
+
+            </html><a class="btn btn-primary" href="books/<%= book._id  %>">view</a>
+        </div>
+        <% } %>
+</div>

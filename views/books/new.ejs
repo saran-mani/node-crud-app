@@ -1,0 +1,21 @@
+<% layout('layout/boilerplate') %>
+<h2 class="text-center">Add New Book</h2>
+    <div>
+        <form action="/books" method="post" class="validated-form">
+            <div class="mb-3">
+                <label for="title" class="form-label"><b>Title:</b></label>
+                <input type="text" class="form-control" id="title" name="book[title]" placeholder="Title"required>
+              </div>
+            <div class="mb-3">
+                <label for="author" class="form-label"><b>Author:</b></label>
+                <input type="text" class="form-control" id="author" name="book[author]" placeholder="Author"  required>
+              </div>
+              <div class="mb-3">
+                <label for="summary" class="form-label"><b>Summary:</b></label>
+                <textarea class="form-control" id="summary" rows="3" name="book[summary]" placeholder="Summary...." required></textarea> 
+              </div>
+            <button class="btn btn-warning" type="submit">Add Book</button>    
+            </form>
+            <a class="btn btn-dark my-3" href="/books">Back</a>
+    </div>
+

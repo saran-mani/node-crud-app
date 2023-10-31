@@ -1,0 +1,20 @@
+<% layout('layout/boilerplate') %>
+    <div>
+      <h2 class="text-center">Edit book: <%=book.title  %></h2>
+        <form action="/books/<%=book._id %>?_method=put" method="post" class="validated-form">
+            <div class="mb-3">
+                <label for="title" class="form-label"><b>Title:</b></label>
+                <input type="text" class="form-control" id="title" name="title" placeholder="Title" value="<%=book.title  %>"required>
+              </div>
+            <div class="mb-3">
+                <label for="author" class="form-label"><b>Author:</b></label>
+                <input type="text" class="form-control" id="author" name="author" placeholder="Author" value="<%=book.author  %>" required>
+              </div>
+              <div class="mb-3">
+                <label for="summary" class="form-label"><b>Summary:</b></label>
+                <textarea class="form-control" id="summary" rows="3" name="summary" placeholder="Summary...." required><%=book.summary  %></textarea> 
+              </div>
+            <button class="btn btn-warning" type="submit">Update</button>
+            <a class="btn btn-dark" href="/books/<%=book._id  %>">Back</a>
+        </form>
+    </div>
