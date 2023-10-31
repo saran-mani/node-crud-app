@@ -3,16 +3,16 @@
 Book CRUD Application is a web-based system designed for managing a collection of books. This application enables you to efficiently perform Create, Read, Update, and Delete (CRUD) operations on book records, making it an essential tool for bookstores, libraries, or anyone in need of organized book data management.
 
 ## Quick Start
-- step 1:
+- ### step 1:
   ```bash
   git clone https://github.com/saran-mani/node-crud-app.git
-- step 2:
+- ### step 2:
   ```bash
   cd node-crud-app
-- step 3:
+- ### step 3:
   ```bash
    npm install
-- step 4:
+- ### step 4:
   ```bash
     node app.js
 ## Table of Contents
