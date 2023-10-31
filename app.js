@@ -5,7 +5,7 @@ const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate");
 const Book = require("./models/book");
 
-mongoose.connect("mongodb://127.0.0.1:27017/Books");
+mongoose.connect("mongodb+srv://saranDB:Il85OAQpk1dsiXsj@cluster0.yh9wymv.mongodb.net/");
 
 const db = mongoose.connection;
 
