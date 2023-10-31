@@ -64,4 +64,7 @@ Brief project description and purpose
   ```bash
   curl -X DELETE http://localhost:3000/books/1
 
-
+## Setup and Local Development
+### Prerequisites
+- Node.js and npm installed on your machine.
+- MongoDB installed and running.
