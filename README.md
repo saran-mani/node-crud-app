@@ -19,7 +19,7 @@ Brief project description and purpose
 - **Description:** Get a list of all books.
 - **Example Usage:**
   ```bash
-  curl -X GET http://localhost:3000/books
+    curl -X GET http://localhost:3000/books
 ### Create a New Book
 - URL: /books
 - HTTP Method: POST
